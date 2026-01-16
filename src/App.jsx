@@ -34,7 +34,7 @@ function App() {
         whiteSpace: "normal",
         wordBreak: "break-word"
       }}>
-        CISC 322 - Group 1 - *Insert group name here*
+        CISC 322 - Group 1 - Group Name
       </h1>
 
       {reports.map(item => (
