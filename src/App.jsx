@@ -6,9 +6,9 @@ import './App.css';
 function App() {
   // Replace these URLs with your actual files / videos
   const reports = [
-    { id: "A1 - Coming soon", pdf: "/files/reportA1.pdf", slides: "/files/slidesA1.pdf", video: "ZVsDTbQ0uxM" },
-    { id: "A2 - Coming soon", pdf: "/files/reportA2.pdf", slides: "/files/slidesA2.pdf", video: "VIDEO_ID_A2" },
-    { id: "A3 - Coming soon", pdf: "/files/reportA3.pdf", slides: "/files/slidesA3.pdf", video: "VIDEO_ID_A3" },
+    { id: "A1 - Coming soon", pdf: "/cisc-322-group-website/files/reportA1.pdf", slides: "/cisc-322-group-website/files/slidesA1.pdf", video: "ZVsDTbQ0uxM" },
+    { id: "A2 - Coming soon", pdf: "/cisc-322-group-website/files/reportA2.pdf", slides: "/cisc-322-group-website/files/slidesA2.pdf", video: "VIDEO_ID_A2" },
+    { id: "A3 - Coming soon", pdf: "/cisc-322-group-website/files/reportA3.pdf", slides: "/cisc-322-group-website/files/slidesA3.pdf", video: "VIDEO_ID_A3" },
   ];
 
   const teamMembers = [
