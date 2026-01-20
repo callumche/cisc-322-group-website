@@ -34,7 +34,7 @@ function App() {
         whiteSpace: "normal",
         wordBreak: "break-word"
       }}>
-        CISC 322 - Group 1 - Group Name
+        CISC 322 - Group 1 - Scott Rosenberg Fan Club
       </h1>
 
       {reports.map(item => (
