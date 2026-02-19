@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   // Replace these URLs with your actual files / videos
   const reports = [
-    { id: "A1 - Coming soon", pdf: "files/reportA1.pdf", slides: "files/slidesA1.pdf", video: "VIDEO_ID_A1" },
+    { id: "A1", pdf: "files/reportA1.pdf", slides: "files/slidesA1.pdf", video: "9squ1uApOtY" },
     { id: "A2 - Coming soon", pdf: "files/reportA2.pdf", slides: "files/slidesA2.pdf", video: "VIDEO_ID_A2" },
     { id: "A3 - Coming soon", pdf: "files/reportA3.pdf", slides: "files/slidesA3.pdf", video: "VIDEO_ID_A3" },
   ];
@@ -89,6 +89,39 @@ function App() {
             <p style={{ margin: 0 }}>{member.role}</p>
           </div>
         ))}
+      </div>
+
+      {/* Helpful Links and Resources Section */}
+      <h2 style={{ marginTop: "3rem", fontSize: "2.5rem", textAlign: "center" }}>Helpful Links and Resources</h2>
+      <div style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        gap: "1rem",
+        margin: "2rem auto",
+        maxWidth: "600px"
+      }}>
+        <a href="http://www.youtube.com/watch?v=QzJufbGhTeI" target="_blank" rel="noopener noreferrer" style={{ width: "100%", textAlign: "center", padding: "0.75rem 0", background: "#e3e3ff", borderRadius: "8px", textDecoration: "none", fontWeight: 600, fontSize: "1.1rem", color: "#222", boxShadow: "0 2px 8px rgba(0,0,0,0.06)" }}>
+          Gemini CLI - YouTube Overview
+        </a>
+        <a href="https://medium.com/@jalateras/unpacking-the-gemini-cli-a-high-level-architectural-overview-99212f6780e7" target="_blank" rel="noopener noreferrer" style={{ width: "100%", textAlign: "center", padding: "0.75rem 0", background: "#e3e3ff", borderRadius: "8px", textDecoration: "none", fontWeight: 600, fontSize: "1.1rem", color: "#222", boxShadow: "0 2px 8px rgba(0,0,0,0.06)" }}>
+          Gemini CLI - Medium Article
+        </a>
+        <a href="https://geminicli.com/docs/architecture/" target="_blank" rel="noopener noreferrer" style={{ width: "100%", textAlign: "center", padding: "0.75rem 0", background: "#e3e3ff", borderRadius: "8px", textDecoration: "none", fontWeight: 600, fontSize: "1.1rem", color: "#222", boxShadow: "0 2px 8px rgba(0,0,0,0.06)" }}>
+          Gemini CLI - Architecture Docs
+        </a>
+        <a href="https://geminicli.com/docs/cli/" target="_blank" rel="noopener noreferrer" style={{ width: "100%", textAlign: "center", padding: "0.75rem 0", background: "#e3e3ff", borderRadius: "8px", textDecoration: "none", fontWeight: 600, fontSize: "1.1rem", color: "#222", boxShadow: "0 2px 8px rgba(0,0,0,0.06)" }}>
+          Gemini CLI - CLI Docs
+        </a>
+        <a href="https://geminicli.com/docs/core/" target="_blank" rel="noopener noreferrer" style={{ width: "100%", textAlign: "center", padding: "0.75rem 0", background: "#e3e3ff", borderRadius: "8px", textDecoration: "none", fontWeight: 600, fontSize: "1.1rem", color: "#222", boxShadow: "0 2px 8px rgba(0,0,0,0.06)" }}>
+          Gemini CLI - Core Docs
+        </a>
+        <a href="https://geminicli.com/docs/tools/" target="_blank" rel="noopener noreferrer" style={{ width: "100%", textAlign: "center", padding: "0.75rem 0", background: "#e3e3ff", borderRadius: "8px", textDecoration: "none", fontWeight: 600, fontSize: "1.1rem", color: "#222", boxShadow: "0 2px 8px rgba(0,0,0,0.06)" }}>
+          Gemini CLI - Tools Docs
+        </a>
+        <a href="https://geminicli.com/docs/cli/commands/#built-in-commands" target="_blank" rel="noopener noreferrer" style={{ width: "100%", textAlign: "center", padding: "0.75rem 0", background: "#e3e3ff", borderRadius: "8px", textDecoration: "none", fontWeight: 600, fontSize: "1.1rem", color: "#222", boxShadow: "0 2px 8px rgba(0,0,0,0.06)" }}>
+          Gemini CLI - Built-in Commands
+        </a>
       </div>
     </div>
   );
